@@ -1,0 +1,36 @@
+# Binaries
+pipeline
+*.exe
+*.exe~
+
+# Directories
+/bin/
+/bin64/
+/bin32/
+/debug/
+/release/
+/build/
+/dist/
+
+# Logs and databases
+logs/
+*.log
+*.sqlite
+
+# Test output
+*.test
+*.prof
+
+# Go
+/go/
+/bin/
+/pkg/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+*.swp
