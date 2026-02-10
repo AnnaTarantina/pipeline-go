@@ -1,0 +1,26 @@
+# Binaries and build artifacts
+pipeline
+*.exe
+*.test
+*.prof
+
+# Directories
+/bin/
+/build/
+/dist/
+/logs/
+/data/
+
+# Version control
+.git
+.gitignore
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files
+tests/
+*_test.go
